@@ -53,7 +53,7 @@ To get set up, run:
 $ pipenv install; pipenv shell
 $ cd server
 $ flask db upgrade
-$ python seed.py
+$ python3 seed.py
 ```
 
 You can view the models in the `server/models.py` module, and the migrations in
@@ -69,7 +69,7 @@ Now, run the server with Flask and re-explore some of the routes from our `GET`
 lesson and the new `/reviews` and `/users` routes:
 
 ```console
-$ python app.py
+$ python3 app.py
 ```
 
 With that set up, let's start working on some CRUD!
